@@ -7,6 +7,6 @@ async function abc() {
 	output.innerText = await new Promise((resolve, reject) => {
 		setTimeout(() => {
 			 resolve(text.value);
-		}, Number(delay.value) * 1000);
+		}, Number(delay.value));
 	})
 }
